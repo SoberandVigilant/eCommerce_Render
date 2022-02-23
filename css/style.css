@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+ 
+}
+
+nav {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px 50px;
+}
+
+.searchIcon {
+    color: aliceblue;
+    
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navItem .logo {
+    font-family: 'Kavivanar', cursive;
+    font-size: 30px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: mediumslateblue;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.searchInput {
+    border:none;
+    background-color: transparent;
+}
+.searchInput::placeholder {
+    color:white;
+}
